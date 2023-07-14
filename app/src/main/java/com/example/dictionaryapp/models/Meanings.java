@@ -3,15 +3,15 @@ package com.example.dictionaryapp.models;
 import java.util.List;
 
 public class Meanings {
-    String partsOfSpeech="";
+    String partOfSpeech="";
     List<Definitions> definitions=null;
 
-    public String getPartsOfSpeech() {
-        return partsOfSpeech;
+    public String getPartOfSpeech() {
+        return partOfSpeech;
     }
 
-    public void setPartsOfSpeech(String partsOfSpeech) {
-        this.partsOfSpeech = partsOfSpeech;
+    public void setPartOfSpeech(String partOfSpeech) {
+        this.partOfSpeech = partOfSpeech;
     }
 
     public List<Definitions> getDefinitions() {
